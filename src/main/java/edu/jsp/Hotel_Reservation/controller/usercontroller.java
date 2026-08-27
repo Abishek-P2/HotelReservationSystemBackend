@@ -21,7 +21,7 @@ import edu.jsp.Hotel_Reservation.service.userservice;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://hotel-reservation-system-dun-zeta.vercel.app")
 public class usercontroller {
 	@Autowired
     private userservice userser;
