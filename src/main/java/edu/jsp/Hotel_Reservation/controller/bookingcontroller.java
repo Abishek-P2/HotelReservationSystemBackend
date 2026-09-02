@@ -19,7 +19,7 @@ import edu.jsp.Hotel_Reservation.service.bookingservice;
 import lombok.AllArgsConstructor;
 
 @RestController
-@CrossOrigin(origins = "https://hotel-reservation-system-dun-zeta.vercel.app")
+@CrossOrigin(origins = { "http://localhost:5173","https://hotel-reservation-system-dun-zeta.vercel.app"})
 @AllArgsConstructor
 public class bookingcontroller {
    private bookingservice bookingser;

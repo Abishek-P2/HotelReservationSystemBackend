@@ -18,7 +18,7 @@ import edu.jsp.Hotel_Reservation.entity.room;
 import edu.jsp.Hotel_Reservation.service.roomservice;
 
 @RestController
-@CrossOrigin(origins = "https://hotel-reservation-system-dun-zeta.vercel.app")
+@CrossOrigin(origins = { "http://localhost:5173","https://hotel-reservation-system-dun-zeta.vercel.app"})
 public class roomcontroller {
   @Autowired
   private roomservice roomser;

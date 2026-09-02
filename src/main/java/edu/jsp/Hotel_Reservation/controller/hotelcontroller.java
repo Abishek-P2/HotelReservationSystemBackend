@@ -21,7 +21,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/hotel")
-@CrossOrigin(origins = "https://hotel-reservation-system-dun-zeta.vercel.app")
+@CrossOrigin(origins = { "http://localhost:5173","https://hotel-reservation-system-dun-zeta.vercel.app"})
 public class hotelcontroller {
     private hotelservice hotelser;
     
