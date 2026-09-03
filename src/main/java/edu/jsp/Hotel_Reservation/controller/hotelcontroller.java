@@ -54,6 +54,9 @@ public class hotelcontroller {
     public List<hotel> getbyrating(@PathVariable double rating){
     	return hotelser.gethotelbyrating(rating);
     }
+    
+   
+    
     @GetMapping("/hotelsearch")
     public List<hotel> searchHotels(
             @RequestParam String city,
